@@ -16,7 +16,7 @@ public class BowlingGame {
     }
 
     private int getUnitScore(String subString) {
-        //求这个子符串的第一个单元格的分数
+        //求这个子符串的第一个单元格的分数。
         int result = 0;
         for (int i = 0; subString.charAt(i) != '|'; i++) {
             switch (subString.charAt(i)) {
